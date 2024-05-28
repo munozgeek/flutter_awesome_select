@@ -173,9 +173,9 @@ class ThemePatrolState extends State<ThemePatrol> {
         primarySwatch: swatch,
         primaryColor: primary,
         colorScheme: ColorScheme.dark(secondary: accent ?? primary),
-        toggleableActiveColor: accent ?? swatch[600],
         brightness: Brightness.dark,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        //toggleableActiveColor: accent ?? swatch[600],
       ),
     );
   }

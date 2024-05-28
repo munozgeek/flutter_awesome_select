@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         primaryColor: Colors.red,
         colorScheme: ColorScheme.dark(secondary: Colors.red),
-        toggleableActiveColor: Colors.red,
+        //toggleableActiveColor: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       mode: ThemeMode.system,
